@@ -1,13 +1,167 @@
-body {
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
   }
   
-  header {
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: #212121;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  a:hover {
+    color: #23527c;
+  }
+  
+  /* Navbar Styles */
+  
+  .navbar {
     background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+    padding: 10px;
   }
   
-  main {
+  .navbar-brand {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .navbar-nav {
+    margin-left: 20px;
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+  }
+  
+  .nav-link {
+    color: #fff;
+  }
+  
+  .nav-link:hover {
+    color: #ccc;
+  }
+  
+  /* Container Styles */
+  
+  .container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Dashboard Styles */
+  
+  .dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .dashboard-card {
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Upcoming IPO Styles */
+  
+  .upcoming-ipo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .upcoming-ipo-card {
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .upcoming-ipo-card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Shark Investor Styles */
+  
+  .shark-investor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .shark-investor-card {
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .shark-investor-card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* All Broker Styles */
+  
+  .all-broker {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .all-broker-card {
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .all-broker-card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Broker Compare Styles */
+  
+  .broker-compare {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .broker-compare-card {
+   
